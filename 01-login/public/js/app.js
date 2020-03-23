@@ -39,7 +39,7 @@ const logout = () => {
 /**
  * Retrieves the auth configuration from the server
  */
-const fetchAuthConfig = () => fetch("auth_config.js");
+const fetchAuthConfig = () => fetch("auth-config.js");
 
 /**
  * Initializes the Auth0 client
